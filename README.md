@@ -48,7 +48,7 @@ ims/
 git clone https://github.com/your-username/ims.git
 cd ims
 
-## 2. Configure MySQL
+# 2. Configure MySQL
 Ensure MySQL is installed and running. Create a database:
 
 sql
@@ -61,7 +61,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/inventory_db
 spring.datasource.username=your_mysql_username
 spring.datasource.password=your_mysql_password
 
-### 3. Build & Run
+# 3. Build & Run
 
 mvn clean install
 mvn spring-boot:run

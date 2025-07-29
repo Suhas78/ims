@@ -26,29 +26,17 @@ A simple full-stack Inventory Management System built with **Java**, **Spring Bo
 
 ## 📁 Project Structure
 
-ims/
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com.inventory.ims/
-│ │ │ ├── controller/
-│ │ │ ├── model/
-│ │ │ ├── repository/
-│ │ │ └── ImsApplication.java
-│ │ └── resources/
-│ │ ├── application.properties
-│ │ └── static/
-├── pom.xml
+<img width="317" height="348" alt="image" src="https://github.com/user-attachments/assets/36e63f34-5d1b-461f-807f-ba266e86d3d2" />
+
 
 ## ⚙️ Setup Instructions
 
-# 1. Clone the repository
-
+ 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/ims.git
 cd ims
 
-# 2. Configure MySQL
+ 2. Configure MySQL
 Ensure MySQL is installed and running. Create a database:
 
 sql
@@ -61,7 +49,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/inventory_db
 spring.datasource.username=your_mysql_username
 spring.datasource.password=your_mysql_password
 
-# 3. Build & Run
+ 3. Build & Run
 
 mvn clean install
 mvn spring-boot:run

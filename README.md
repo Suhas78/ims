@@ -55,11 +55,11 @@ mvn clean install
 mvn spring-boot:run
 
 📬 API Endpoints
-Method    	Endpoint	       Description
-GET  	/api/products	       Get all products
-POST	/api/products	        Add a product
-PUT 	/api/products/{id}	   Update a product
-DELETE	/api/products/{id}	 Delete a product
+Method    	Endpoint	         Description
+GET  	/api/products	        Get all products
+POST	/api/products	         Add a product
+PUT 	/api/products/{id}	    Update a product
+DELETE	/api/products/{id}	  Delete a product
 
 Example JSON for POST /api/products:
 
